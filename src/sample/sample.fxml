@@ -58,17 +58,12 @@
             <Font name="Times New Roman" size="20.0" />
          </font>
       </TextArea>
-      <Button fx:id="addTactBtn" layoutX="1186.0" layoutY="834.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="263.0" style="-fx-background-color: #FFE4E1; -fx-border-color: #FFFFFF;" text="Add Tact">
+      <Button fx:id="startProgramBtn" layoutX="909.0" layoutY="834.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="405.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #FFFFFF;" text="Start">
          <font>
             <Font name="Times New Roman" size="24.0" />
          </font>
       </Button>
-      <Button fx:id="startProgramBtn" layoutX="907.0" layoutY="834.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="263.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #FFFFFF;" text="Start">
-         <font>
-            <Font name="Times New Roman" size="24.0" />
-         </font>
-      </Button>
-      <Button fx:id="exitBtn" layoutX="1464.0" layoutY="834.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="263.0" style="-fx-background-color: #A52A2A; -fx-border-color: #FFFFFF;" text="Exit" textFill="WHITE">
+      <Button fx:id="exitBtn" layoutX="1322.0" layoutY="834.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="405.0" style="-fx-background-color: #A52A2A; -fx-border-color: #FFFFFF;" text="Exit" textFill="WHITE">
          <font>
             <Font name="Times New Roman" size="24.0" />
          </font>

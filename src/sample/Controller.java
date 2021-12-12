@@ -22,9 +22,6 @@ public class Controller extends Thread {
     private TextArea actualProcessField = new TextArea();
 
     @FXML
-    private Button addTactBtn;
-
-    @FXML
     private TextArea busyBlocksField = new TextArea();
 
     @FXML
@@ -66,10 +63,6 @@ public class Controller extends Thread {
                 scheduler.start();
                 start();
             }
-        });
-        addTactBtn.setOnAction(event -> {
-            if(Configuration.isProgramWork())
-                ProgramTimer.incTact();
         });
         exitBtn.setOnAction(event -> {
             if(Configuration.isProgramWork())
